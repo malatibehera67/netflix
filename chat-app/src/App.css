@@ -1,0 +1,35 @@
+.App {
+  height: 100%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+html,body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #9EB5FA33;
+}
+input {
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, .4);
+  outline: none;
+  font-size: 14px;
+  padding: 12px;
+  font-weight: 700px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+button {
+  height: 100%;
+  background-color: #0F3CC9;
+  color: #FFFFFF;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
